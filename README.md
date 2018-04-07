@@ -1,5 +1,5 @@
 # ColorfulToast
-由于Toast封装的比较完善，我们很难对Toast的样式进行更改，甚至简单的字体颜色和大小都不能直接更改，只能自定义一个view添加进去，这样有比较麻烦，这里分享一个自用的Toast封装，可以很轻松的修改背景，字体以及添加一些简单的图标或者调整Toast出现的位置。
+由于Toast封装的比较完善，我们很难对Toast的样式进行更改，甚至简单的字体颜色和大小都不能直接更改，只能自定义一个view添加进去，这样又比较麻烦，这里分享一个自用的Toast封装，可以很轻松的修改背景，字体以及添加一些简单的图标或者调整Toast出现的位置。
 
 如下：
 ![](https://upload-images.jianshu.io/upload_images/5111131-14ceaf6e0f04e1cc.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
@@ -64,6 +64,7 @@ ColorfulToast.makeText(this,TAG)
                 .setRightDrawable(R.mipmap.ic_launcher)
                 .show();  //在屏幕中间显示一个高度自定义化的Toast
 ```
+**[简书](https://www.jianshu.com/p/fddb4b72edbf)**
 
 
 
